@@ -13,7 +13,7 @@ public class Appointment {
 		time = t;
 	}
 	
-	public String toString() {
+	public String toString() {//need toString to print objects; can't just print straight
 		return date.toString() + " " + time.toString();
 	}
 
